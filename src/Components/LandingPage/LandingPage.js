@@ -12,6 +12,7 @@ import Share from '../Assets/Icons/Share.svg'
 import Bookmark from '../Assets/Icons/Bookmark.svg'
 import Tab from '../Assets/Icons/Tab.svg'
 import Home from '../Assets/Icons/Home.svg'
+import { Link } from 'react-router-dom'
 
 
 const LandingPage = () => {
@@ -37,7 +38,9 @@ const LandingPage = () => {
             </section>
             <section className='image-button-container'>
                 <img src={Image} alt='EventsImage' className='landing-page-image'/>
-                <button className='landing-page-create-button'> 🎉 Create my event</button>
+                <Link to='/create'>
+                    <button className='landing-page-create-button'> 🎉 Create my event</button>
+                </Link>
             </section>
             <footer className='domain-section'>
                 <div className='url'>

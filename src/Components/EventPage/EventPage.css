@@ -1,0 +1,129 @@
+.event-page-container {
+    background: rgba(251, 250, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event-image {
+    height: 375px;
+    width: 375px;
+}
+
+.event-details {
+    margin: 11px 0 0 0;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.event-details > h1 {
+    margin: 0;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.host {
+    color: rgba(130, 130, 130, 1);
+    font-size: 14px;
+}
+
+.event-time-place {
+    width: 349.57px;
+    margin: 24px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.event-time-place > div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.svg-border {
+    height: 36px;
+    width: 36px;
+    border-radius: 10px;
+    padding: 12px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.svg-border > img {
+    height: 30px;
+}
+
+.from-to-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.from {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(36, 13, 87, 1);
+
+}
+
+.to { 
+    font-family: Helvetica;
+    font-size: 14px;
+
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(79, 79, 79, 1);
+}
+
+.to-date {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 960px) {
+    .event-image {
+        width: 593px;
+        height: 593px;
+        margin-top: 83px;
+    }
+
+    .event-details {
+        width: 593px;
+        gap: 17px;
+    }
+
+    .event-details > h1 {
+        font-size: 48px;
+    }
+
+    .host {
+        font-size: 18px;
+    }
+
+    .event-time-place {
+        width: 593px;
+    }
+
+    .svg-border {
+        height: 56px;
+        width: 56px;
+    }
+
+    .from,
+    .to {
+        font-size: 18px;
+    }
+}
