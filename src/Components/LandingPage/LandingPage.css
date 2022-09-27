@@ -136,7 +136,7 @@
     position: absolute;
     bottom: 8px;
 }
-/* 
+
 @media only screen and (min-width: 960px) {
     .top {
         display: none;
@@ -146,10 +146,33 @@
         padding-top: 60px;
         width: 880px;
         height: 264px;
-        font-size: 24px;
     }
 
     .landing-page-heading {
         font-size: 64px;
+        width: 573.91px;
+        height: 192px;
     }
-} */
+    .landing-page-heading > span {
+        height: 73px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .landing-page-heading-description {
+        font-size: 24px;
+        width: 521px;
+        height: 56px;
+    }
+
+    .landing-page-image {
+        width: 311px;
+        height: 548.27px;
+    }
+
+    .landing-page-create-button {
+        width: 311px;
+        height: 55px;
+    }
+}
