@@ -3,9 +3,9 @@ import './CreateEventPage.css'
 const CreateEventPage = () => {
     return (
         <div>
-            
+            Create
         </div>
     )
 }
 
-export { CreateEventPage }
+export default CreateEventPage
